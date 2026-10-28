@@ -1,0 +1,45 @@
+{
+  "dataset": "SYNTHETIC, simulated latent classes with overlapping distributions",
+  "split": "80% training sessions / 20% held-out sessions (GroupShuffleSplit)",
+  "training_rows": 5760,
+  "test_rows": 1440,
+  "training_sessions": 480,
+  "test_sessions": 120,
+  "test_accuracy": 0.9409722222222222,
+  "test_balanced_accuracy": 0.9144860440150295,
+  "test_macro_f1": 0.9236622199189487,
+  "majority_baseline_accuracy": 0.4666666666666667,
+  "report": {
+    "Normal": {
+      "precision": 0.9733727810650887,
+      "recall": 0.9791666666666666,
+      "f1-score": 0.9762611275964391,
+      "support": 672.0
+    },
+    "Congested": {
+      "precision": 0.9089316987740805,
+      "recall": 0.9402173913043478,
+      "f1-score": 0.9243098842386465,
+      "support": 552.0
+    },
+    "Critical": {
+      "precision": 0.9222797927461139,
+      "recall": 0.8240740740740741,
+      "f1-score": 0.8704156479217604,
+      "support": 216.0
+    },
+    "accuracy": 0.9409722222222222,
+    "macro avg": {
+      "precision": 0.9348614241950944,
+      "recall": 0.9144860440150295,
+      "f1-score": 0.9236622199189487,
+      "support": 1440.0
+    },
+    "weighted avg": {
+      "precision": 0.9410064179390228,
+      "recall": 0.9409722222222222,
+      "f1-score": 0.9404696623580834,
+      "support": 1440.0
+    }
+  }
+}
